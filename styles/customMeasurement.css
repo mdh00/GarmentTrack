@@ -1,0 +1,71 @@
+body {
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}     
+
+form{
+    text-align:justify;
+    padding-left: 400px;
+    font-size:medium;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-top: 50px;
+
+}
+
+label {
+    display: flex;
+    justify-content:left;
+    margin-bottom: 10px;
+}
+
+.image-size {
+    width: 450px;
+    height: 490px;
+    max-width: 630px;
+    max-height: 650px;    
+  }
+
+  .addMeasurement-button {
+    display: inline-block;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 3px;
+    background-color: #696666;
+    background-color: rgb(0, 100, 134);
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    position: absolute;
+    padding: 5px;
+    top: 580px;
+  }
+  
+  .addMeasurement-button:hover{
+    background-color: #3f578c;
+  }
+  
+  a {
+    color: rgb(0, 0, 255);
+}
+
+h1{
+  margin-top: 10px;
+  text-align: center;
+}
+
+#measurementTable th,
+#measurementTable td {
+    padding: 15px;
+    border: 1px solid #a3e4ff;
+    text-align: center;
+}
+
+#measurementTable th {
+    background-color: #88cdff;
+}
+
+#measurementTable tr:hover {
+    background-color: #eaf5fd;
+}
